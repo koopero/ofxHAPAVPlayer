@@ -15,6 +15,8 @@
 #include "ofThread.h"
 #include "ofGraphics.h"
 #include "ofShader.h"
+#include "ofGLUtils.h"
+
 //#include "ofxHAPAVPlayerInterOp.h"
 
 #ifdef __OBJC__
@@ -24,6 +26,8 @@
 #import <ofxHAPAVPlayerDelegate.h>
 #include <mach/mach_time.h>
 #endif
+
+using namespace std;
 
 class ofxHAPAVPlayer{// : public ofxHAPAVPlayerInterOp{
     
